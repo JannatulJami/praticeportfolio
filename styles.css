@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c8d4c0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    background: #e8f0e0;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Left Box */
+.left-box {
+    background: #ffffff;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.left-box h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.welcome {
+    color: #d18b8b;
+    font-weight: bold;
+}
+
+.come {
+    color: #79a678;
+    font-weight: bold;
+}
+
+.left-box img {
+    width: 100%;
+    max-width: 150px;
+}
+
+.left-box p {
+    font-size: 14px;
+    color: #444;
+}
+
+.signature {
+    font-size: 16px;
+    font-weight: bold;
+    color: #79a678;
+}
+
+/* Right Box */
+.right-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.right-box img {
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+}
